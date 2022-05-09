@@ -1,0 +1,105 @@
+h2 {
+    font-size: 2.5em;
+    color: green;
+    text-transform: uppercase;
+}
+
+h3 {
+    padding: 30px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+h4 {
+    font-size: 1em;
+    color: green;
+    font-style: italic;
+}
+h5{
+    text-transform: capitalize;
+}
+
+* {
+    font-family: "Segoe UI",Serif;
+}
+
+hr {
+    color: #001c5e;
+    border: .05em solid;
+}
+
+p {
+    text-indent: 40px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.nomargin {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.block {
+    width: 50%;
+}
+
+.back_to_top {
+    --offset: 100px;
+    float: right;
+    position: sticky;
+    bottom: 20px;
+    right: 10px;
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #001164;
+    border-radius: 50px;
+    white-space: nowrap;
+}
+
+#header {
+    padding-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+#content {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.25em;
+}
+
+#cover {
+    width: 30%;
+    height: 30%;
+}
+
+#related_links li {
+
+}
+
+#related_links ul {
+    margin: 0;
+    border: none;
+}
+#related_links a {
+    text-decoration: none;
+}
+#related_links li a:hover {
+    color: chocolate;
+}
+
+
+
+
+
